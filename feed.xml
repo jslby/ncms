@@ -3,12 +3,34 @@
     <title>Банковское дело</title>
     <link href="https://jslby.github.io/ncms/feed.xml" rel="self" />
     <link href="https://jslby.github.io/ncms" />
-    <updated>2019-08-04T19:31:31+03:00</updated>
+    <updated>2019-08-04T23:45:42+03:00</updated>
     <author>
         <name>Ярослав</name>
     </author>
     <id>https://jslby.github.io/ncms</id>
 
+    <entry>
+        <title>тест2</title>
+        <author>
+            <name>Ярослав</name>
+        </author>
+        <link href="https://jslby.github.io/ncms/test2.html"/>
+        <id>https://jslby.github.io/ncms/test2.html</id>
+
+        <updated>2019-08-04T23:42:53+03:00</updated>
+            <summary>
+                <![CDATA[
+                    тест2 тест2
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>тест2</p>
+<p> </p>
+<p>тест2</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Тест</title>
         <author>
@@ -17,7 +39,7 @@
         <link href="https://jslby.github.io/ncms/test.html"/>
         <id>https://jslby.github.io/ncms/test.html</id>
 
-        <updated>2019-08-04T19:31:27+03:00</updated>
+        <updated>2019-08-04T22:58:03+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://jslby.github.io/ncms/media/posts/1/dekster_serial_dexter_akter_maykl_holl_vzglyad_gazeta_manyak_2012_2560x1600.jpg" alt="" />
