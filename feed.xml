@@ -3,7 +3,7 @@
     <title>Банковское дело</title>
     <link href="https://jslby.github.io/ncms/feed.xml" rel="self" />
     <link href="https://jslby.github.io/ncms" />
-    <updated>2019-08-04T19:28:52+03:00</updated>
+    <updated>2019-08-04T19:31:31+03:00</updated>
     <author>
         <name>Ярослав</name>
     </author>
@@ -17,14 +17,16 @@
         <link href="https://jslby.github.io/ncms/test.html"/>
         <id>https://jslby.github.io/ncms/test.html</id>
 
-        <updated>2019-08-04T19:16:23+03:00</updated>
+        <updated>2019-08-04T19:31:27+03:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://jslby.github.io/ncms/media/posts/1/dekster_serial_dexter_akter_maykl_holl_vzglyad_gazeta_manyak_2012_2560x1600.jpg" alt="" />
                     Тесттт
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://jslby.github.io/ncms/media/posts/1/dekster_serial_dexter_akter_maykl_holl_vzglyad_gazeta_manyak_2012_2560x1600.jpg" alt="" />
                 Тесттт
             ]]>
         </content>
