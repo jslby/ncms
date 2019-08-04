@@ -7,11 +7,11 @@
             return false;
         });
 
-        $('.js-navbar a').each(function(i, link) {
+        $('.js-navbar a').each(function (i, link) {
             link = $(link);
 
-            link.on('click', function(e) {
-                if(
+            link.on('click', function (e) {
+                if (
                     link.parent().hasClass('has-submenu') &&
                     $('.js-navbar__toggle').attr('aria-expanded') === 'true' &&
                     link.parent().attr('aria-expanded') !== 'true'
@@ -24,102 +24,60 @@
     });
 
     // iOS :hover fix
-    document.addEventListener("touchend", function() {}); 
+    document.addEventListener("touchend", function () {});
 
     // Mainmenu improvements
     $(function ($) {
         var mainmenu = $('.navbar__menu');
         var level0 = mainmenu.children('li');
 
-        var setSubmenusPosition = function(submenus) {
-            if(!submenus.length) {
+        var setSubmenusPosition = function (submenus) {
+            if (!submenus.length) {
                 return;
             }
 
-            submenus.each(function(i, submenu) {
+            submenus.each(function (i, submenu) {
                 submenu = $(submenu);
 
-                submenu.parent().on('mouseenter', function() {
-                    setTimeout(function() {
+                submenu.parent().on('mouseenter', function () {
+                    setTimeout(function () {
                         var diff = $(window).outerWidth() - (submenu.offset().left + submenu.outerWidth());
 
-                        if(diff < 0) {
+                        if (diff < 0) {
                             submenu.addClass('navbar__submenu--reversed');
                         }
                     }, 50);
                 });
             });
 
-            submenus.children('li').children('.navbar__submenu').each(function(i, submenus) {
+            submenus.children('li').children('.navbar__submenu').each(function (i, submenus) {
                 setSubmenusPosition($(submenus));
             });
         };
 
-        if(level0.length) {
+        if (level0.length) {
             var level1 = level0.children('.navbar__submenu');
 
-            if(level1.length) {
-                level1.each(function(i, submenu) {
+            if (level1.length) {
+                level1.each(function (i, submenu) {
                     submenu = $(submenu);
 
-                    submenu.parent().on('mouseenter', function() {
-                        setTimeout(function() {
+                    submenu.parent().on('mouseenter', function () {
+                        setTimeout(function () {
                             var diff = $(window).outerWidth() - (submenu.offset().left + submenu.outerWidth());
 
-                            if(diff < 0) {
+                            if (diff < 0) {
                                 submenu.css('margin-left', (diff - 10) + "px");
                             }
                         }, 50);
                     });
 
-                    submenu.children('li').children('.navbar__submenu').each(function(i, submenus) {
+                    submenu.children('li').children('.navbar__submenu').each(function (i, submenus) {
                         setSubmenusPosition($(submenus));
                     });
                 });
             }
         }
-    });
-
-
-    // Sticky menu animation
-    $(function ($) {
-        var menu = $('.js-top');
-
-        if (!menu.length || !menu.hasClass('is-sticky')) {
-            return;
-        }
-
-        var previousScroll = $(window).scrollTop();
-        var menuHeight = menu.outerHeight();
-        var menuTop = 0;
-
-        $(window).on('scroll', function () {
-            var currentScroll = $(window).scrollTop();
-            var diff = currentScroll - previousScroll;
-            menuTop -= diff / 2;
-
-            if (menuTop < -menuHeight) {
-                menuTop = -menuHeight;
-            }
-
-            if (menuTop >= 0) {
-                menuTop = 0;
-            }
-
-            if (currentScroll <= 100) {
-                menu.removeClass('has-bg');
-            } else {
-                menu.addClass('has-bg');
-            }
-
-            if (currentScroll <= 30) {
-                menuTop = 0;
-            }
-
-            menu.css('top', menuTop + 'px');
-
-            previousScroll = currentScroll;
-        });
     });
 
     // Share buttons pop-up
@@ -157,6 +115,5 @@
             return !!popup;
         }
     });
-
 
 })(jQuery);

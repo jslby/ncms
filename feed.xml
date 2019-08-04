@@ -3,7 +3,7 @@
     <title>Банковское дело</title>
     <link href="https://jslby.github.io/ncms/feed.xml" rel="self" />
     <link href="https://jslby.github.io/ncms" />
-    <updated>2019-08-04T23:45:42+03:00</updated>
+    <updated>2019-08-05T00:14:08+03:00</updated>
     <author>
         <name>Ярослав</name>
     </author>
@@ -14,17 +14,19 @@
         <author>
             <name>Ярослав</name>
         </author>
-        <link href="https://jslby.github.io/ncms/test2.html"/>
-        <id>https://jslby.github.io/ncms/test2.html</id>
+        <link href="https://jslby.github.io/ncms/test2/"/>
+        <id>https://jslby.github.io/ncms/test2/</id>
 
-        <updated>2019-08-04T23:42:53+03:00</updated>
+        <updated>2019-08-04T23:59:28+03:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://jslby.github.io/ncms/media/posts/2/wallhaven-md2dlm.jpg" alt="Кредитная карта — лучший способ получить кредит до 1 500 000 ₽ с удобными условиями и доставкой в любую точку России. Тинькофф Банк одобрит кредитную карту за 2 минуты по паспорту и доставит ее бесплатно на дом за 2 дня. Оплачивайте покупки, не платите проценты до 55 дней и получайте бонусы за каждую покупку по карте. Годовое обслуживание — от 590 ₽. Бесплатное пополнение банковским переводом или у партнеров Тинькофф Банка." />
                     тест2 тест2
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://jslby.github.io/ncms/media/posts/2/wallhaven-md2dlm.jpg" alt="Кредитная карта — лучший способ получить кредит до 1 500 000 ₽ с удобными условиями и доставкой в любую точку России. Тинькофф Банк одобрит кредитную карту за 2 минуты по паспорту и доставит ее бесплатно на дом за 2 дня. Оплачивайте покупки, не платите проценты до 55 дней и получайте бонусы за каждую покупку по карте. Годовое обслуживание — от 590 ₽. Бесплатное пополнение банковским переводом или у партнеров Тинькофф Банка." />
                 <p>тест2</p>
 <p> </p>
 <p>тест2</p>
@@ -36,8 +38,8 @@
         <author>
             <name>Ярослав</name>
         </author>
-        <link href="https://jslby.github.io/ncms/test.html"/>
-        <id>https://jslby.github.io/ncms/test.html</id>
+        <link href="https://jslby.github.io/ncms/test/"/>
+        <id>https://jslby.github.io/ncms/test/</id>
 
         <updated>2019-08-04T22:58:03+03:00</updated>
             <summary>
