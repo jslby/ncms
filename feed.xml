@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Банковское дело</title>
+    <link href="https://jslby.github.io/ncms/feed.xml" rel="self" />
+    <link href="https://jslby.github.io/ncms" />
+    <updated>2019-08-04T19:22:13+03:00</updated>
+    <author>
+        <name>Ярослав</name>
+    </author>
+    <id>https://jslby.github.io/ncms</id>
+
+    <entry>
+        <title>Тест</title>
+        <author>
+            <name>Ярослав</name>
+        </author>
+        <link href="https://jslby.github.io/ncms/test.html"/>
+        <id>https://jslby.github.io/ncms/test.html</id>
+
+        <updated>2019-08-04T19:16:23+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Тесттт
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                Тесттт
+            ]]>
+        </content>
+    </entry>
+</feed>
